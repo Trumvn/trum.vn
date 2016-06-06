@@ -1,0 +1,497 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{431CD48E-CEB6-49F7-A515-2FF32713B1E3}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Trumvn.WepApp</RootNamespace>
+    <AssemblyName>Trumvn.WepApp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="404.html" />
+    <Content Include="views\about-us.html" />
+    <Content Include="views\blog-post.html" />
+    <Content Include="views\blog.html" />
+    <Content Include="views\category-layout-10.html" />
+    <Content Include="views\category-layout-11.html" />
+    <Content Include="views\category-layout-2.html" />
+    <Content Include="views\category-layout-3.html" />
+    <Content Include="views\category-layout-4.html" />
+    <Content Include="views\category-layout-5.html" />
+    <Content Include="views\category-layout-6.html" />
+    <Content Include="views\category-layout-7.html" />
+    <Content Include="views\category-layout-8.html" />
+    <Content Include="views\category-layout-9.html" />
+    <Content Include="views\category.html" />
+    <Content Include="views\checkout.html" />
+    <Content Include="views\contact.html" />
+    <Content Include="css\bootstrap-theme.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\font-awesome.css" />
+    <Content Include="css\mystyles.css" />
+    <Content Include="css\schemes\brick-red.css" />
+    <Content Include="css\schemes\bright-turquoise.css" />
+    <Content Include="css\schemes\cerise.css" />
+    <Content Include="css\schemes\de-york.css" />
+    <Content Include="css\schemes\denim.css" />
+    <Content Include="css\schemes\green-smoke.css" />
+    <Content Include="css\schemes\hippie-blue.css" />
+    <Content Include="css\schemes\horizon.css" />
+    <Content Include="css\schemes\leather.css" />
+    <Content Include="css\schemes\mandy.css" />
+    <Content Include="css\schemes\salem.css" />
+    <Content Include="css\schemes\scarlet.css" />
+    <Content Include="css\schemes\shamrock.css" />
+    <Content Include="css\schemes\studio.css" />
+    <Content Include="css\schemes\turkish-rose.css" />
+    <Content Include="css\styles.css" />
+    <Content Include="img\100x100.png" />
+    <Content Include="img\1024x576.png" />
+    <Content Include="img\105x20.png" />
+    <Content Include="img\1060x1060.png" />
+    <Content Include="img\110x223.png" />
+    <Content Include="img\1140x200.png" />
+    <Content Include="img\1200x472.png" />
+    <Content Include="img\1200x500.png" />
+    <Content Include="img\1350x500.png" />
+    <Content Include="img\1400x220.png" />
+    <Content Include="img\1400x500.png" />
+    <Content Include="img\150x249.png" />
+    <Content Include="img\177x155.png" />
+    <Content Include="img\1785x1800.png" />
+    <Content Include="img\190x184.png" />
+    <Content Include="img\190x215.png" />
+    <Content Include="img\200x200.png" />
+    <Content Include="img\200x230.png" />
+    <Content Include="img\200x65.png" />
+    <Content Include="img\2100x2100.png" />
+    <Content Include="img\210x191.png" />
+    <Content Include="img\210x210.png" />
+    <Content Include="img\230x90.png" />
+    <Content Include="img\240x200.png" />
+    <Content Include="img\250x137.png" />
+    <Content Include="img\250x216.png" />
+    <Content Include="img\260x200.png" />
+    <Content Include="img\260x457.png" />
+    <Content Include="img\280x160.png" />
+    <Content Include="img\300x300.png" />
+    <Content Include="img\300x468.png" />
+    <Content Include="img\309x297.png" />
+    <Content Include="img\340x213.png" />
+    <Content Include="img\346x445.png" />
+    <Content Include="img\348x382.png" />
+    <Content Include="img\350x219.png" />
+    <Content Include="img\373x92.png" />
+    <Content Include="img\374x442.png" />
+    <Content Include="img\376x476.png" />
+    <Content Include="img\380x200.png" />
+    <Content Include="img\380x220.png" />
+    <Content Include="img\380x346.png" />
+    <Content Include="img\383x510.png" />
+    <Content Include="img\400x200.png" />
+    <Content Include="img\420x210.png" />
+    <Content Include="img\430x450.png" />
+    <Content Include="img\450x200.png" />
+    <Content Include="img\461x500.png" />
+    <Content Include="img\468x500.png" />
+    <Content Include="img\490x500.png" />
+    <Content Include="img\500x293.png" />
+    <Content Include="img\500x330.png" />
+    <Content Include="img\500x500.png" />
+    <Content Include="img\500x95.png" />
+    <Content Include="img\50x50.png" />
+    <Content Include="img\51x32.png" />
+    <Content Include="img\520x520.png" />
+    <Content Include="img\550x210.png" />
+    <Content Include="img\550x292.png" />
+    <Content Include="img\560x200.png" />
+    <Content Include="img\5f936f0ca1f4f8989c54b93009388888.png" />
+    <Content Include="img\600x293.png" />
+    <Content Include="img\600x300.png" />
+    <Content Include="img\600x317.png" />
+    <Content Include="img\600x366.png" />
+    <Content Include="img\600x375.png" />
+    <Content Include="img\600x491.png" />
+    <Content Include="img\615x315.png" />
+    <Content Include="img\620x283.png" />
+    <Content Include="img\620x300.png" />
+    <Content Include="img\620x323.png" />
+    <Content Include="img\620x400.png" />
+    <Content Include="img\626x433.png" />
+    <Content Include="img\638x483.png" />
+    <Content Include="img\650x406.png" />
+    <Content Include="img\650x650.png" />
+    <Content Include="img\650x800.png" />
+    <Content Include="img\660x500.png" />
+    <Content Include="img\700x294.png" />
+    <Content Include="img\70x70.png" />
+    <Content Include="img\712x350.png" />
+    <Content Include="img\736x414.png" />
+    <Content Include="img\750x200.png" />
+    <Content Include="img\800x1000.png" />
+    <Content Include="img\800x800.png" />
+    <Content Include="img\897x450.png" />
+    <Content Include="img\960x480.png" />
+    <Content Include="img\backgrounds\beach.jpg" />
+    <Content Include="img\backgrounds\bike.jpg" />
+    <Content Include="img\backgrounds\bridge.jpg" />
+    <Content Include="img\backgrounds\cameras.jpg" />
+    <Content Include="img\backgrounds\flowers.jpg" />
+    <Content Include="img\backgrounds\keyboard.jpg" />
+    <Content Include="img\backgrounds\nature.jpg" />
+    <Content Include="img\backgrounds\phone.jpg" />
+    <Content Include="img\backgrounds\road.jpg" />
+    <Content Include="img\backgrounds\street.jpg" />
+    <Content Include="img\backgrounds\taxi.jpg" />
+    <Content Include="img\backgrounds\wood.jpg" />
+    <Content Include="img\header-feature.png" />
+    <Content Include="img\logo-center.png" />
+    <Content Include="img\logo-w-lg.png" />
+    <Content Include="img\logo-w.png" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\patterns\binding_dark.png" />
+    <Content Include="img\patterns\binding_light.png" />
+    <Content Include="img\patterns\dark_fish_skin.png" />
+    <Content Include="img\patterns\dimension.png" />
+    <Content Include="img\patterns\escheresque_ste.png" />
+    <Content Include="img\patterns\food.png" />
+    <Content Include="img\patterns\giftly.png" />
+    <Content Include="img\patterns\grey_wash_wall.png" />
+    <Content Include="img\patterns\ps_neutral.png" />
+    <Content Include="img\patterns\pw_maze_black.png" />
+    <Content Include="img\patterns\pw_pattern.png" />
+    <Content Include="img\patterns\simple_dashed.png" />
+    <Content Include="img\patterns\triangular.png" />
+    <Content Include="img\patterns\tweed.png" />
+    <Content Include="img\payment\2checkout-curved-128px.png" />
+    <Content Include="img\payment\2checkout-curved-32px.png" />
+    <Content Include="img\payment\2checkout-curved-64px.png" />
+    <Content Include="img\payment\2checkout-straight-128px.png" />
+    <Content Include="img\payment\2checkout-straight-32px.png" />
+    <Content Include="img\payment\2checkout-straight-64px.png" />
+    <Content Include="img\payment\american-express-curved-128px.png" />
+    <Content Include="img\payment\american-express-curved-32px.png" />
+    <Content Include="img\payment\american-express-curved-64px.png" />
+    <Content Include="img\payment\american-express-straight-128px.png" />
+    <Content Include="img\payment\american-express-straight-32px.png" />
+    <Content Include="img\payment\american-express-straight-64px.png" />
+    <Content Include="img\payment\cirrus-curved-128px.png" />
+    <Content Include="img\payment\cirrus-curved-32px.png" />
+    <Content Include="img\payment\cirrus-curved-64px.png" />
+    <Content Include="img\payment\cirrus-straight-128px.png" />
+    <Content Include="img\payment\cirrus-straight-32px.png" />
+    <Content Include="img\payment\cirrus-straight-64px.png" />
+    <Content Include="img\payment\delta-curved-128px.png" />
+    <Content Include="img\payment\delta-curved-32px.png" />
+    <Content Include="img\payment\delta-curved-64px.png" />
+    <Content Include="img\payment\delta-straight-128px.png" />
+    <Content Include="img\payment\delta-straight-32px.png" />
+    <Content Include="img\payment\delta-straight-64px.png" />
+    <Content Include="img\payment\direct-debit-curved-128px.png" />
+    <Content Include="img\payment\direct-debit-curved-32px.png" />
+    <Content Include="img\payment\direct-debit-curved-64px.png" />
+    <Content Include="img\payment\direct-debit-straight-128px.png" />
+    <Content Include="img\payment\direct-debit-straight-32px.png" />
+    <Content Include="img\payment\direct-debit-straight-64px.png" />
+    <Content Include="img\payment\discover-curved-128px.png" />
+    <Content Include="img\payment\discover-curved-32px.png" />
+    <Content Include="img\payment\discover-curved-64px.png" />
+    <Content Include="img\payment\discover-straight-128px.png" />
+    <Content Include="img\payment\discover-straight-32px.png" />
+    <Content Include="img\payment\discover-straight-64px.png" />
+    <Content Include="img\payment\ebay-curved-128px.png" />
+    <Content Include="img\payment\ebay-curved-32px.png" />
+    <Content Include="img\payment\ebay-curved-64px.png" />
+    <Content Include="img\payment\ebay-straight-128px.png" />
+    <Content Include="img\payment\ebay-straight-32px.png" />
+    <Content Include="img\payment\ebay-straight-64px.png" />
+    <Content Include="img\payment\google-checkout-curved-128px.png" />
+    <Content Include="img\payment\google-checkout-curved-32px.png" />
+    <Content Include="img\payment\google-checkout-curved-64px.png" />
+    <Content Include="img\payment\google-checkout-straight-128px.png" />
+    <Content Include="img\payment\google-checkout-straight-32px.png" />
+    <Content Include="img\payment\google-checkout-straight-64px.png" />
+    <Content Include="img\payment\maestro-curved-128px.png" />
+    <Content Include="img\payment\maestro-curved-32px.png" />
+    <Content Include="img\payment\maestro-curved-64px.png" />
+    <Content Include="img\payment\maestro-straight-128px.png" />
+    <Content Include="img\payment\maestro-straight-32px.png" />
+    <Content Include="img\payment\maestro-straight-64px.png" />
+    <Content Include="img\payment\mastercard-curved-128px.png" />
+    <Content Include="img\payment\mastercard-curved-32px.png" />
+    <Content Include="img\payment\mastercard-curved-64px.png" />
+    <Content Include="img\payment\mastercard-straight-128px.png" />
+    <Content Include="img\payment\mastercard-straight-32px.png" />
+    <Content Include="img\payment\mastercard-straight-64px.png" />
+    <Content Include="img\payment\moneybookers-curved-128px.png" />
+    <Content Include="img\payment\moneybookers-curved-32px.png" />
+    <Content Include="img\payment\moneybookers-curved-64px.png" />
+    <Content Include="img\payment\moneybookers-straight-128px.png" />
+    <Content Include="img\payment\moneybookers-straight-32px.png" />
+    <Content Include="img\payment\moneybookers-straight-64px.png" />
+    <Content Include="img\payment\paypal-curved-128px.png" />
+    <Content Include="img\payment\paypal-curved-32px.png" />
+    <Content Include="img\payment\paypal-curved-64px.png" />
+    <Content Include="img\payment\paypal-straight-128px.png" />
+    <Content Include="img\payment\paypal-straight-32px.png" />
+    <Content Include="img\payment\paypal-straight-64px.png" />
+    <Content Include="img\payment\sagepay-curved-128px.png" />
+    <Content Include="img\payment\sagepay-curved-32px.png" />
+    <Content Include="img\payment\sagepay-curved-64px.png" />
+    <Content Include="img\payment\sagepay-straight-128px.png" />
+    <Content Include="img\payment\sagepay-straight-32px.png" />
+    <Content Include="img\payment\sagepay-straight-64px.png" />
+    <Content Include="img\payment\solo-curved-128px.png" />
+    <Content Include="img\payment\solo-curved-32px.png" />
+    <Content Include="img\payment\solo-curved-64px.png" />
+    <Content Include="img\payment\solo-straight-128px.png" />
+    <Content Include="img\payment\solo-straight-32px.png" />
+    <Content Include="img\payment\solo-straight-64px.png" />
+    <Content Include="img\payment\switch-curved-128px.png" />
+    <Content Include="img\payment\switch-curved-32px.png" />
+    <Content Include="img\payment\switch-curved-64px.png" />
+    <Content Include="img\payment\switch-straight-128px.png" />
+    <Content Include="img\payment\switch-straight-32px.png" />
+    <Content Include="img\payment\switch-straight-64px.png" />
+    <Content Include="img\payment\visa-curved-128px.png" />
+    <Content Include="img\payment\visa-curved-32px.png" />
+    <Content Include="img\payment\visa-curved-64px.png" />
+    <Content Include="img\payment\visa-electron-curved-128px.png" />
+    <Content Include="img\payment\visa-electron-curved-32px.png" />
+    <Content Include="img\payment\visa-electron-curved-64px.png" />
+    <Content Include="img\payment\visa-electron-straight-128px.png" />
+    <Content Include="img\payment\visa-electron-straight-32px.png" />
+    <Content Include="img\payment\visa-electron-straight-64px.png" />
+    <Content Include="img\payment\visa-straight-128px.png" />
+    <Content Include="img\payment\visa-straight-32px.png" />
+    <Content Include="img\payment\visa-straight-64px.png" />
+    <Content Include="img\payment\western-union-curved-128px.png" />
+    <Content Include="img\payment\western-union-curved-32px.png" />
+    <Content Include="img\payment\western-union-curved-64px.png" />
+    <Content Include="img\payment\western-union-straight-128px.png" />
+    <Content Include="img\payment\western-union-straight-32px.png" />
+    <Content Include="img\payment\western-union-straight-64px.png" />
+    <Content Include="img\paypal.png" />
+    <Content Include="img\switcher\beach.jpg" />
+    <Content Include="img\switcher\bike.jpg" />
+    <Content Include="img\switcher\bike.png" />
+    <Content Include="img\switcher\bridge.jpg" />
+    <Content Include="img\switcher\cameras.jpg" />
+    <Content Include="img\switcher\color.png" />
+    <Content Include="img\switcher\flowers.jpg" />
+    <Content Include="img\switcher\keyboard.jpg" />
+    <Content Include="img\switcher\nature.jpg" />
+    <Content Include="img\switcher\phone.jpg" />
+    <Content Include="img\switcher\road.jpg" />
+    <Content Include="img\switcher\street.jpg" />
+    <Content Include="img\switcher\taxi.jpg" />
+    <Content Include="img\switcher\wood.jpg" />
+    <Content Include="img\test_banner\1-i.png" />
+    <Content Include="img\test_banner\10-i.png" />
+    <Content Include="img\test_banner\11-i.png" />
+    <Content Include="img\test_banner\12-i.png" />
+    <Content Include="img\test_banner\13-i.png" />
+    <Content Include="img\test_banner\14-i.png" />
+    <Content Include="img\test_banner\16-i.png" />
+    <Content Include="img\test_banner\17-i.png" />
+    <Content Include="img\test_banner\18-i.png" />
+    <Content Include="img\test_banner\2-i.png" />
+    <Content Include="img\test_banner\20-i.png" />
+    <Content Include="img\test_banner\21-i.png" />
+    <Content Include="img\test_banner\24-i.png" />
+    <Content Include="img\test_banner\25-i.png" />
+    <Content Include="img\test_banner\26-i.png" />
+    <Content Include="img\test_banner\27-i.png" />
+    <Content Include="img\test_banner\28-i.png" />
+    <Content Include="img\test_banner\29-i.png" />
+    <Content Include="img\test_banner\3-i.png" />
+    <Content Include="img\test_banner\32-i.png" />
+    <Content Include="img\test_banner\33-i.png" />
+    <Content Include="img\test_banner\5-i.png" />
+    <Content Include="img\test_banner\6-i.png" />
+    <Content Include="img\test_banner\7-i.png" />
+    <Content Include="img\test_banner\8-i.png" />
+    <Content Include="img\test_banner\9-i.png" />
+    <Content Include="img\test_cat\11-i.png" />
+    <Content Include="img\test_cat\12-i.png" />
+    <Content Include="img\test_cat\13-i.png" />
+    <Content Include="img\test_cat\14-i.png" />
+    <Content Include="img\test_cat\2-i.png" />
+    <Content Include="img\test_cat\3-i.png" />
+    <Content Include="img\test_cat\4-i.png" />
+    <Content Include="img\test_cat\6-i.png" />
+    <Content Include="img\test_cat\7-i.png" />
+    <Content Include="img\test_cat\9-i.png" />
+    <Content Include="img\test_footer2-i.png" />
+    <Content Include="img\test_slider\1-i.png" />
+    <Content Include="img\test_slider\1-o.png" />
+    <Content Include="img\test_slider\1.png" />
+    <Content Include="img\test_slider\10.png" />
+    <Content Include="img\test_slider\11.png" />
+    <Content Include="img\test_slider\12.jpg" />
+    <Content Include="img\test_slider\12.png" />
+    <Content Include="img\test_slider\13-i.png" />
+    <Content Include="img\test_slider\13-o.png" />
+    <Content Include="img\test_slider\13.png" />
+    <Content Include="img\test_slider\14-i.png" />
+    <Content Include="img\test_slider\14-o.png" />
+    <Content Include="img\test_slider\14.png" />
+    <Content Include="img\test_slider\15-i.png" />
+    <Content Include="img\test_slider\15-o.png" />
+    <Content Include="img\test_slider\15.png" />
+    <Content Include="img\test_slider\16-i.png" />
+    <Content Include="img\test_slider\16-o.png" />
+    <Content Include="img\test_slider\16.png" />
+    <Content Include="img\test_slider\17.jpg" />
+    <Content Include="img\test_slider\2-i.png" />
+    <Content Include="img\test_slider\2-o.png" />
+    <Content Include="img\test_slider\2.png" />
+    <Content Include="img\test_slider\3-i.png" />
+    <Content Include="img\test_slider\3-o.png" />
+    <Content Include="img\test_slider\3.png" />
+    <Content Include="img\test_slider\4-i.png" />
+    <Content Include="img\test_slider\4.png" />
+    <Content Include="img\test_slider\5-i.png" />
+    <Content Include="img\test_slider\5.png" />
+    <Content Include="img\test_slider\6.png" />
+    <Content Include="img\test_slider\7-i.png" />
+    <Content Include="img\test_slider\7-o.png" />
+    <Content Include="img\test_slider\7.png" />
+    <Content Include="img\test_slider\8.png" />
+    <Content Include="img\test_slider\9.png" />
+    <Content Include="views\index-footer-layout-2.html" />
+    <Content Include="views\index-footer-layout-3.html" />
+    <Content Include="views\index-footer-layout-4.html" />
+    <Content Include="views\index-layout-2.html" />
+    <Content Include="views\index-layout-3.html" />
+    <Content Include="views\index-layout-4.html" />
+    <Content Include="views\index-layout-5.html" />
+    <Content Include="views\index-layout-6.html" />
+    <Content Include="views\index-layout-7.html" />
+    <Content Include="views\index-nav-layout-2.html" />
+    <Content Include="views\index-nav-layout-3.html" />
+    <Content Include="views\index-nav-layout-4.html" />
+    <Content Include="index.html" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\card-payment.js" />
+    <Content Include="js\custom.js" />
+    <Content Include="js\icheck.js" />
+    <Content Include="js\ionrangeslider.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\jqzoom.js" />
+    <Content Include="js\magnific.js" />
+    <Content Include="js\owl-carousel.js" />
+    <Content Include="views\login-register.html" />
+    <Content Include="views\order-summary.html" />
+    <Content Include="views\product-layout-2.html" />
+    <Content Include="views\product-layout-3.html" />
+    <Content Include="views\product-layout-4.html" />
+    <Content Include="views\product-layout-5.html" />
+    <Content Include="views\product-layout-6.html" />
+    <Content Include="views\product-layout-7.html" />
+    <Content Include="views\product-layout-8.html" />
+    <Content Include="views\product-page.html" />
+    <Content Include="views\shopping-cart-empty.html" />
+    <Content Include="views\shopping-cart.html" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>56906</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:56906/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,6 @@
+D:\www\Repositories\trum.vn\SourceCode\Trumvn.Portal.WebApp\bin\Trumvn.Portal.WebApp.dll.config
+D:\www\Repositories\trum.vn\SourceCode\Trumvn.Portal.WebApp\bin\Trumvn.Portal.WebApp.dll
+D:\www\Repositories\trum.vn\SourceCode\Trumvn.Portal.WebApp\bin\Trumvn.Portal.WebApp.pdb
+D:\www\Repositories\trum.vn\SourceCode\Trumvn.Portal.WebApp\obj\Debug\Trumvn.Portal.WebApp.csprojResolveAssemblyReference.cache
+D:\www\Repositories\trum.vn\SourceCode\Trumvn.Portal.WebApp\obj\Debug\Trumvn.Portal.WebApp.dll
+D:\www\Repositories\trum.vn\SourceCode\Trumvn.Portal.WebApp\obj\Debug\Trumvn.Portal.WebApp.pdb

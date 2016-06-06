@@ -1,0 +1,5 @@
+D:\www\Repositories\trum.vn\SourceCode\Trumvn\Trumvn.EntityFrameWork\bin\Debug\Trumvn.EntityFrameWork.dll
+D:\www\Repositories\trum.vn\SourceCode\Trumvn\Trumvn.EntityFrameWork\bin\Debug\Trumvn.EntityFrameWork.pdb
+D:\www\Repositories\trum.vn\SourceCode\Trumvn\Trumvn.EntityFrameWork\obj\Debug\Trumvn.EntityFrameWork.csprojResolveAssemblyReference.cache
+D:\www\Repositories\trum.vn\SourceCode\Trumvn\Trumvn.EntityFrameWork\obj\Debug\Trumvn.EntityFrameWork.dll
+D:\www\Repositories\trum.vn\SourceCode\Trumvn\Trumvn.EntityFrameWork\obj\Debug\Trumvn.EntityFrameWork.pdb

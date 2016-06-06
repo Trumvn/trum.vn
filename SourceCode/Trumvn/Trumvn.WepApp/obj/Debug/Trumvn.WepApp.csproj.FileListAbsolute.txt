@@ -1,0 +1,6 @@
+D:\www\Repositories\trum.vn\SourceCode\Trumvn\Trumvn.WepApp\bin\Trumvn.WepApp.dll.config
+D:\www\Repositories\trum.vn\SourceCode\Trumvn\Trumvn.WepApp\bin\Trumvn.WepApp.dll
+D:\www\Repositories\trum.vn\SourceCode\Trumvn\Trumvn.WepApp\bin\Trumvn.WepApp.pdb
+D:\www\Repositories\trum.vn\SourceCode\Trumvn\Trumvn.WepApp\obj\Debug\Trumvn.WepApp.csprojResolveAssemblyReference.cache
+D:\www\Repositories\trum.vn\SourceCode\Trumvn\Trumvn.WepApp\obj\Debug\Trumvn.WepApp.dll
+D:\www\Repositories\trum.vn\SourceCode\Trumvn\Trumvn.WepApp\obj\Debug\Trumvn.WepApp.pdb

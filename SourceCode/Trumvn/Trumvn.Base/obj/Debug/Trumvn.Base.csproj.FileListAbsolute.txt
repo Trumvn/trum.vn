@@ -1,0 +1,4 @@
+D:\www\Repositories\trum.vn\SourceCode\Trumvn\Trumvn.Base\bin\Debug\Trumvn.Base.dll
+D:\www\Repositories\trum.vn\SourceCode\Trumvn\Trumvn.Base\bin\Debug\Trumvn.Base.pdb
+D:\www\Repositories\trum.vn\SourceCode\Trumvn\Trumvn.Base\obj\Debug\Trumvn.Base.dll
+D:\www\Repositories\trum.vn\SourceCode\Trumvn\Trumvn.Base\obj\Debug\Trumvn.Base.pdb
